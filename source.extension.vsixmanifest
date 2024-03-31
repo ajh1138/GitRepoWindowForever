@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="GitRepoWindowForever.3414a3ef-ce9e-477b-8abb-7adf619775b6" Publisher="Tostadasoft" Version="1.0" Language="en-US" />
-        <DisplayName>GitRepoWindowForever</DisplayName>
+        <Identity Id="GitRepositoryWindowForever.3414a3ef-ce9e-477b-8abb-7adf619775b6" Publisher="Tostadasoft" Version="1.0" Language="en-US" />
+        <DisplayName>GitRepositoryWindowForever</DisplayName>
         <Description xml:space="preserve" >An extension for Visual Studio 2022 to ensure that the Git Repository Window is always shown on startup, on solution load, and upon debugging your solution.</Description>
         <MoreInfo>https://github.com/ajh1138/GitRepoWindowForever</MoreInfo>
         <Icon>Resources\GRWF_Icon_04.png</Icon>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
             <ProductArchitecture>amd64</ProductArchitecture>
         </InstallationTarget>
     </Installation>
