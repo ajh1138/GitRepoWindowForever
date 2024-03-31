@@ -5,8 +5,6 @@ namespace Tostadasoft.GitRepositoryWindowForever
 {
 	internal partial class OptionsProvider
 	{
-		// Register the options with this attribute on your package class:
-		// [ProvideOptionPage(typeof(OptionsProvider.MyExtensionOptionsOptions), "Tostadasoft.GitRepositoryWindowForever", "MyExtensionOptions", 0, 0, true, SupportsProfiles = true)]
 		[ComVisible(true)]
 		public class MyExtensionOptionsOptions : BaseOptionPage<MyExtensionOptions> { }
 	}
