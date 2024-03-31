@@ -12,7 +12,7 @@ namespace Tostadasoft.GitRepositoryWindowForever
         public const string Description = @"An extension for Visual Studio 2022 to ensure that the Git Repository Window is always shown on startup, on solution load, and upon debugging your solution.";
         public const string Language = "en-US";
         public const string Version = "1.0";
-        public const string Author = "ajh1138";
+        public const string Author = "Tostadasoft";
         public const string Tags = "";
     }
 }
